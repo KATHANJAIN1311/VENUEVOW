@@ -6,14 +6,7 @@ import HotelDetails from './components/HotelDetails';
 
 const App = () => {
   const hotels = [
-    {
-      id: 1,
-      name: "Bandhan marriage Garden",
-      description: "Bandhan Garden Neemuch is one of the most sought-after banqueting facilities in the city.",
-      location: "Kabrastaan Road, Neemuch, Madhya Pradesh 458441",
-      hours: "Open 24 hours",
-      nameimage:"bandhan"
-    },
+   
     {
       id: 2,
       name: "Shreenath Marriage Garden",
