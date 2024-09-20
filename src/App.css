@@ -1,121 +1,329 @@
 :root {
- background-color:whitesmoke; 
-  
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-nav {
-  background-color: #000;
-  color: #fff;
-  padding: 5px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-ul li {
-  margin-left: 20px;
-}
-
-ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-}
-
-input[type="text"] {
-  padding: 5px;
-  margin-right: 5px;
-}
-
-button {
-  padding: 5px 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
-.hotel-details {
-  display: flex;
-  max-width: 800px;
-  margin: 20px auto;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.hotel-image {
-  flex: 1;
-}
-
-.hotel-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hotel-info {
-  flex: 1;
-  padding: 50px;
-}
-
-.hotel-info h2 {
-  margin-top:auto;
-}
-
-.hotel-info ul {
-  list-style-type: none;
-  padding: 0;
-  font-weight: bold;
-}
-
-.hotel-info li {
-  margin-bottom: 10px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-div li a{
-  /* background-color: #000; */
-  color: #fff;
-  padding: 5px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-div button{
-  height: 20%;
-  /* width: 20%; */
-}
+  background-color:whitesmoke; 
+   
+ }
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ nav {
+   background-color: #000;
+   color: #fff;
+   padding: 5px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo1 img {
+   width: 90%;
+   height: 50px;
+   border-radius: 50%;
+ }
+ 
+ ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+ }
+ 
+ ul li {
+   margin-left: 20px;
+   background-color: rgb(151, 131, 5);
+   border-radius: 50px;
+ }
+ 
+ ul li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ body {
+   font-family: Arial;
+ }
+ 
+ * {
+   box-sizing: border-box;
+   /* align-items: center; */
+ 
+ }
+ .search-container{
+   margin-bottom:1%;
+   margin-left: 230px;
+ 
+ }
+ 
+ form.search input[type=text] {
+   padding: 1% 1%;
+   font-size: 17px;
+   /* border: 0px solid grey; */
+   float: left;
+   width: 70%;
+   height: 45px;
+   background: #d0d6db;
+   border-radius:0px;
+   color: #2a3239;
+ 
+   
+ }
+ 
+ form.search button {
+   float: left;
+   width: 10%;
+   height: 45px;
+   padding: 1% 1%;
+   background:rgba(21, 29, 36, 0.874);
+   color: rgba(58, 72, 85, 0.955);
+   font-size: 17px;
+   /* border: 0px solid grey; */
+   border-left: none;
+   cursor: pointer;
+   border-radius:0px
+ }
+ .search button i{
+   color:white;
+ }
+ 
+ form.search button:hover {
+   background: #1b222a;
+ }
+ 
+ form.example::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ /*hoteldetails css*/
+ .hotel-details {
+   display: flex;
+   max-width: 800px;
+   margin: 20px auto;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   overflow: hidden;
+ }
+ 
+ .hotel-image {
+   flex: 1;
+ }
+ 
+ .hotel-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+ .hotel-info {
+   flex: 1;
+   padding: 50px;
+ }
+ 
+ .hotel-info h3 {
+   margin-top:auto;
+ }
+ 
+ .hotel-info ul {
+   list-style-type: none;
+   padding: 0;
+   font-weight: bold;
+ }
+ 
+ .hotel-info li {
+   margin-bottom: 10px;
+ }
+ 
+ button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+   border-radius: 50px;
+ }
+ 
+ div li a{
+   /* background-color: #000; */
+   color: #fff;
+   padding: 5px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ div button{
+   height: 20%;
+   /* width: 20%; */
+ }
+ 
+ /* Banner CSS starts  */
+ .p-page {
+   padding: 0 5%;
+ }
+ 
+ img{
+   width: 100%;
+   height: 290px;
+   border-radius: 12px;
+   
+   /* background-color: var(--primary-yellow); */
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: .5% .5%;
+ }
+ 
+ 
+ /* .banner-heading {
+   font-size: 2.5rem;
+   color: var(--black);
+   font-weight: 900;
+ } */
+ 
+ /*login css start */
+ .login-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   height: 95vh;
+   background-color: #f0f0f0;
+ }
+ 
+ .login-form {
+   background-color: rgb(0, 0, 0);
+   padding: 2rem;
+   border-radius: 8px;
+   box-shadow: white;
+   width: 300px;
+ }
+ 
+ h2 {
+   text-align: center;
+   color: whitesmoke;
+   margin-bottom: 1.5rem;
+ }
+ h4 {
+   text-align: center;
+   color: whitesmoke;
+   margin-bottom: 1.5rem;
+ }
+ .venuevows{
+   width: 100%;
+   height: 150px; 
+   margin-bottom: 10px; 
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .form-group {
+   margin-bottom: 1rem;
+ }
+ 
+ label {
+   display:block;
+   margin-bottom: 0.5rem;
+   color: #666;
+   width: 25px,25px;
+ 
+ }
+ .signup-link {
+   text-align: center;
+   margin-top: 1rem;
+   color: #bbb;
+ }
+ 
+ .signup-link a {
+   color: #007bff;
+   text-decoration: none;
+ }
+ 
+ .signup-link a:hover {
+   text-decoration: underline;
+ }
+ 
+ input {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   font-size: 1rem;
+   border-radius: 50PX;
+ 
+ }
+ 
+ .login-button, .reset-button {
+   width: 100%;
+   padding: 0.75rem;
+   background-color:white;
+   color: rgb(0, 0, 0);
+   border: none;
+   border-radius: 40PX;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ .login-button:hover, .reset-button:hover {
+   background-color: #003d82;
+ }
+ 
+ .error-message {
+   color: red;
+   text-align: center;
+   margin-bottom: 1rem;
+ }
+ 
+ .forgot-password {
+   text-align:left;
+   margin-top:0.5rem;
+ }
+ 
+ .forgot-password a {
+   color: #e7e7e7;
+   text-decoration: none;
+ }
+ 
+ .forgot-password a:hover {
+   text-decoration: underline;
+ }
+ 
+ .modal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .modal-content {
+   background-color: white;
+   padding: 2rem;
+   border-radius: 8px;
+   width: 300px;
+ }
+ 
+ .close-button {
+   margin-top: 1rem;
+   padding: 0.5rem 1rem;
+   background-color: #ccc;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .close-button:hover {
+   background-color: #bbb;
+ }
+ 
