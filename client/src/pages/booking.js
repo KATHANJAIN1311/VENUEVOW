@@ -11,7 +11,7 @@ function Booking() {
     async function fetchData() {
       try {
         setloading(true);
-        const data = await axios.get("http://localhost:5000/api/room/all");
+        const data = await axios.get(`${process.env.REACT_APP_API_URL}/api/room/all`);
         console.log("data", data);
         setroom(data.data);
         setloading(false);
