@@ -4,7 +4,7 @@ import './App.css';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Navbar from './components/navbar';
-import Hotelprofile from './components/Hotelprofile';
+//import Hotelprofile from './components/Hotelprofile';
 import Home from './pages/Home';
 import Login from './pages/Loginpage';
 import Booking from './pages/booking';
@@ -27,7 +27,7 @@ function App() {
       {/* <Route exact path="/login" element={<LoginPage/>} /> */}
       <Route exact path="/" element={<Home />} />
       <Route exact path="/Login" element={<Login />} />
-      <Route exact path="/Hotelprofile" element={<Hotelprofile />} />
+      {/* <Route exact path="/Hotelprofile" element={<Hotelprofile />} /> */}
       <Route exact path="/Booking" element = {<Booking/>}/>
    </Routes>
     </BrowserRouter>

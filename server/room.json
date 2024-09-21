@@ -1,0 +1,82 @@
+[
+    {
+      
+      "name": "Bandhan marriage Garden",
+      "imageurls" : [
+         " https://lh3.googleusercontent.com/p/AF1QipP4LSartpFhn3oCi0VgZPfN0Hyyt_422nMTTWV9=s1360-w1360-h1020",
+         " https://lh3.googleusercontent.com/p/AF1QipMr0c39WyTvPjFZEA7gXfJAsNLfa0OStpdYLeFh=s1360-w1360-h1020"
+        ],
+       "rentperday" : 1500,
+       "type" : "deluxe",
+       "maxcount" : 3,
+       "phonenumber" : 1234567890,
+       "location": "Kabrastaan Road, Neemuch, Madhya Pradesh 458441",
+       "currentbooking" : [
+       ],
+          "description": "Bandhan Garden Neemuch is one of the most sought-after banqueting facilities in the city." 
+    },
+   {
+      
+     "name": "Shreenath Marriage Garden",
+      "imageurls" : [
+         "https://lh5.googleusercontent.com/p/AF1QipO8EjUItOlLaDCxY9hQvLBbjYclMfaSu_0-_E_U=w130-h87-n-k-no",
+         "https://lh3.googleusercontent.com/p/AF1QipOUB8z9IqOyoYYM5x9Owud_B3K8mzPeqmUNefPz=s1360-w1360-h1020"
+               ],
+         "rentperday" : 1500,
+         "type" : "deluxe",
+         "maxcount" : 3,
+         "phonenumber" : 1234567890,
+         "location": "Maharana Pratap Marg, Neemuch Old City, Neemuch 458441,",
+         "currentbooking" :[
+         ],
+         "description": "It's a good accommodation place for a function on budget and the garden is also pretty good in size."    
+   },
+   {
+     
+     "name": "Shubhkamna Resort & Marriage Garden",
+     "imageurls" : [
+         "https://lh3.googleusercontent.com/p/AF1QipNvAQ7xCvpISKJhYcRndBV6wclJlbkK6pP3MxNP=s1360-w1360-h1020",
+         "https://lh3.googleusercontent.com/p/AF1QipOmCdIwsfM_EFlsmdIYapzMd1WUKRXoW4LXLLTp=s1360-w1360-h1020"
+      ],
+         "rentperday" : 1500,
+         "type" : "deluxe",
+         "maxcount" : 3,
+         "phonenumber" : 1234567890,
+         "location": "Sanjit Rd, Abhinandan Colony, Mandsaur, Madhya Pradesh 458001",
+          "currentbooking" : [
+       ],
+      "description": "Our work belief comes from the teaching of, ATITHI DEVO BHAVA. "    
+   },
+   {
+   
+     "name": "Shagun Garden",
+       "imageurls" : [
+         "https://lh3.googleusercontent.com/p/AF1QipMuXZBMnv6F4zzCALzSOaCqskfYLIbGJ_qRaqKl=s1360-w1360-h1020",
+         "https://lh3.googleusercontent.com/p/AF1QipMuXZBMnv6F4zzCALzSOaCqskfYLIbGJ_qRaqKl=s1360-w1360-h1020"
+      ],
+         "rentperday" : 1500,
+         "type" : "deluxe",
+         "maxcount" : 3,
+         "phonenumber" : 1234567890,
+         "location": "42, तिरुपति नगर मार्ग, behind Tirupati Plaza,Mandsaur, Madhya Pradesh 458001",
+         "currentbooking" :[
+     ],
+          "description": "Its a good accommodation place for a function on budget."   
+   },
+   {
+    
+     "name": "Nakshatra Garden",
+       "imageurls" : [
+       "https://lh3.googleusercontent.com/p/AF1QipMG97epFj2L7Pf2uo9TMh4x2FET6lvbeP-XmEba=s1360-w1360-h1020",
+       "https://lh3.googleusercontent.com/p/AF1QipPCO-5GVQTmkUKDR26IRyMhlhcwBAqjiD0gGCcl=s1360-w1360-h1020"
+        ],
+         "rentperday" : 1500,
+         "type" : "deluxe",
+         "maxcount" : 3,
+         "phonenumber" : 1234567890,
+         "location": "Mandsaur, Madhya Pradesh 458001",
+         "currentbooking" : [
+     ],
+          "description": "It's a good accommodation place for a function on budget."    
+   }
+ ]

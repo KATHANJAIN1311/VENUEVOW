@@ -32,7 +32,6 @@
  
  ul li {
    margin-left: 20px;
-   background-color: rgb(151, 131, 5);
    border-radius: 50px;
  }
  
@@ -98,7 +97,7 @@
  }
  
  /*hoteldetails css*/
- .hotel-details {
+ /* .hotel-details {
    display: flex;
    max-width: 800px;
    margin: 20px auto;
@@ -136,19 +135,19 @@
    margin-bottom: 10px;
  }
  
- button {
+ /* button {
    background-color: #4CAF50;
    color: white;
    padding: 10px 20px;
    border: none;
    border-radius: 4px;
    cursor: pointer;
- }
+ } */
  
- button:hover {
+ /* button:hover {
    background-color: #45a049;
    border-radius: 50px;
- }
+ } */ 
  
  div li a{
    /* background-color: #000; */
@@ -216,8 +215,8 @@
    margin-bottom: 1.5rem;
  }
  .venuevows{
-   width: 100%;
-   height: 150px; 
+   width: 90px;
+   height: 90px; 
    margin-bottom: 10px; 
    display:block;
    margin-left: auto;
@@ -294,7 +293,7 @@
  .forgot-password a:hover {
    text-decoration: underline;
  }
- 
+ /*booking hotel css start*/
  .modal {
    position: fixed;
    top: 0;
@@ -308,12 +307,65 @@
  }
  
  .modal-content {
-   background-color: white;
+   position: relative;
+   display: flex;
+   background-clip: padding-box;
+   flex-direction: column;
+   background-color: rgb(255, 255, 255);
    padding: 2rem;
-   border-radius: 8px;
-   width: 300px;
+   border-radius: var(--bs-modal-border-radius);
+   width: 50%;
  }
- 
+ .carousel-indicators{
+   position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+ }
+ .modal-header{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+ }
+ .modal-footer{
+   display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap)* .5);
+    background-color: var(--bs-modal-footer-bg);
+    border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+ }
+ .modal-backdrop{
+  --bs-backdrop-zindex: 1050;
+    /* --bs-backdrop-bg: #000; */
+    --bs-backdrop-opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-backdrop-zindex);
+    width: auto;
+    height: auto;
+    background-color: var(--bs-backdrop-bg);
+ }
+
+ /* .Carousel{
+  position:relative;
+ } */
  .close-button {
    margin-top: 1rem;
    padding: 0.5rem 1rem;

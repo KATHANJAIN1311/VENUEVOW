@@ -7,7 +7,7 @@ function Room ({room}) {
   const handleShow = () => setShow(true);
   return(
   <div className='row bs'>
-    <div className='col-md-4'>
+    <div className='row justify-content-center mt-5'>
       <img src={room.imageurls[0]} className='smallimg' class = "center"/>
     </div>
     <div className='col-md-7'>
