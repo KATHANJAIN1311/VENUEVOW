@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors')
+
 // const mongoose = require('mongoose');
 
 const app = express();
@@ -17,6 +18,6 @@ app.get('/', (_req, res) => {
     status: "success"
   });
 });
-
+require("dotenv").config
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
