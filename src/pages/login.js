@@ -1,21 +1,36 @@
 import React, { useState } from 'react';
+import axios from "axios"
+import { useNavigate } from 'react-router-dom';
 
 // import './LoginPage.css';
 
 function LoginPage() {
-  const [MobileNo, setUsernumber] = useState('');
+  const navigate = useNavigate()
+  const [mobileNo, setMobileNo] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
   const [resetEmail, setResetEmail] = useState('');
 
   const handleSubmit = (e) => {
-    console.log(MobileNo,password);
     e.preventDefault();
-    if (MobileNo && password ) {
-      alert('Login successful!');
+    if (mobileNo && password) {
+      alert("Login successful!");
+      axios.post("http://localhost:5000/api/admin/login", {
+        mobileNumber: mobileNo,
+        password: password    
+      })
+      .then(response => {
+        console.log('login_res-', response)
+        if(response.data.status === "loggedIn") {
+          navigate("/")
+        }
+      })
+      .catch(error => {
+        console.log("error-", error)
+      })
     } else {
-      setError('Invalid mobile no. or password');
+      setError("Invalid mobile no. or password");
     }
   };
 
@@ -39,9 +54,9 @@ function LoginPage() {
           <label htmlFor="Mobile No.">Mobile No.:</label>
           <input
             type="text"
-            id="username"
-            value={MobileNo}
-            onChange={(e) => setUsernumber(e.target.value)}
+            id="mobileNumber"
+            value={mobileNo}
+            onChange={(e) => setMobileNo(e.target.value)}
             required
           />
         </div>
@@ -58,7 +73,8 @@ function LoginPage() {
         {error && <p className="error-message">{error}</p>}
         <button type="submit" className="login-button">Login</button>
         <p className="signup-link">
-          Don't have an account? <a href="/signup">Sign up</a>
+          Don't have an account? 
+          <a href="/signup">Signup</a>
         </p>
         <p className="forgot-password">
           <a href="/forgot password" onClick={() => setIsResetModalOpen(true)}>Forgot Password?</a>

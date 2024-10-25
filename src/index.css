@@ -9,16 +9,24 @@
     color: aliceblue !important;
     box-shadow: none !important;
     box-sizing: border-box;
-  }
+    padding: 5px 5px;
+    border-radius: 4px;
+    margin-right: 4px;
+    float: right;
+    }
    
   .bs{
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    /* margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px; */
   }
   .bigimg{
     height: 400px;
   }
   .modal{
     align-items: center;
+    display: block;
   }
    
   

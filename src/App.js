@@ -8,6 +8,8 @@ import Navbar from './components/navbar';
 import Home from './pages/Home';
 import Login from './pages/Loginpage';
 import Booking from './pages/booking';
+import Booknow from './pages/booknow';
+import Signupform from './pages/signupform';
 
 
 
@@ -26,9 +28,11 @@ function App() {
       {/* <Route exact path="/HotelDetails" element={<HotelDetails/>} /> */}
       {/* <Route exact path="/login" element={<LoginPage/>} /> */}
       <Route exact path="/" element={<Home />} />
-      <Route exact path="/Login" element={<Login />} />
+      <Route exact path="/login" element={<Login />} />
+      <Route exact path="/signup" element={<Signupform/>}/>
       {/* <Route exact path="/Hotelprofile" element={<Hotelprofile />} /> */}
       <Route exact path="/Booking" element = {<Booking/>}/>
+      <Route exact path="/book/:roomid" element = {<Booknow/>}/>
    </Routes>
     </BrowserRouter>
   </div>

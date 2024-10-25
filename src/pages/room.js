@@ -1,25 +1,33 @@
 import React, {useState} from 'react'
 import {Modal, Button, Carousel} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
+
 function Room ({room}) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return(
-  <div className='row bs'>
-    <div className='row justify-content-center mt-5'>
+  <div className='room-container'>
+    <div className='hotel-image'>
+      
       <img src={room.imageurls[0]} className='smallimg' class = "center"/>
     </div>
-    <div className='col-md-7'>
+    <div className='about-us'>
       <h1>{room.name}</h1>
-      <b>
+      <b>         
       <p>max count: {room.maxcount}</p>
       <p>phone number: {room.phonenumber}</p>
       <p>Type: {room.type}</p>
       </b>
+
       <div style={{float:'right'}}>
-        <btn className='btn btn-primary' onClick={handleShow}>view details</btn>
+        <Link to={`/book/${room._id}`}>      
+        <btn className='btn btn primary mr-2'>Book Now</btn>
+        </Link>
+      <btn className='btn btn-primary' onClick={handleShow}>view details</btn>
       </div>
+    
     </div>  
    
 

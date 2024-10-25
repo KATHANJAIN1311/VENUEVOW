@@ -13,16 +13,20 @@ export class Home extends Component {
           </form>
 
         </div> 
-         <div className="home p-pages">
+         {/* <div className="home p-pages">
          <img src='/homeimg/home-banner.jpg'/>
          {/* <h1 className="banner-heading">Dream venue</h1> */}
-         </div>
-         <div className="home p-pages2">
+         {/* </div> */} 
+         <div className="home p-pages1">
          <img src='/homeimg/venuevows banner.jpg'/>
-         {/* <h1 className="banner-heading">Dream venue</h1> */}
          </div>
 
-         
+         <div class="scroll-container">
+         <img src="/homeimg/hotel_1.jpg" alt="palace" width="auto" height="400"/>
+         <img src="/homeimg/hotel_2.jpg" alt="party hall" width="600" height="400"/>
+         <img src="/homeimg/hotel_3.jpg" alt="garden" width="600" height="400"/>
+         <img src="/homeimg/hotel_4.jpg" alt="heritage" width="600" height="400"/>
+        </div>
          </div>
         
       

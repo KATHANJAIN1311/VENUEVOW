@@ -150,7 +150,6 @@
  } */ 
  
  div li a{
-   /* background-color: #000; */
    color: #fff;
    padding: 5px 10px;
    display: flex;
@@ -160,7 +159,6 @@
  
  div button{
    height: 20%;
-   /* width: 20%; */
  }
  
  /* Banner CSS starts  */
@@ -170,21 +168,29 @@
  
  img{
    width: 100%;
-   height: 290px;
+   height: 280px;
    border-radius: 12px;
-   
-   /* background-color: var(--primary-yellow); */
    background-size: cover;
    background-repeat: no-repeat;
    padding: .5% .5%;
  }
  
+ div.scroll img{
+  width: 60%;
+  height: 250px;
+ }
+ div.scroll-container {
+  /* background-color: #333; */
+  overflow: auto;
+  white-space: nowrap;
+  padding: 2px;
+}
+
+div.scroll-container img {
+  padding: 5px;
+}
+
  
- /* .banner-heading {
-   font-size: 2.5rem;
-   color: var(--black);
-   font-weight: 900;
- } */
  
  /*login css start */
  .login-container {
@@ -192,7 +198,7 @@
    justify-content: center;
    align-items: center;
    
-   height: 95vh;
+   /* height: 95vh; */
    background-color: #f0f0f0;
  }
  
@@ -281,7 +287,7 @@
  }
  
  .forgot-password {
-   text-align:left;
+   text-align:center;
    margin-top:0.5rem;
  }
  
@@ -294,6 +300,27 @@
    text-decoration: underline;
  }
  /*booking hotel css start*/
+ .room-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+ }
+ .hotel-image{
+  width: 500px;
+  height: 50% ;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: .5% 1%;
+  display:flex;
+  flex-direction: column;
+ 
+ }
+ .about-us{
+  display: flex;
+  flex-direction:column;
+  float:calc(center);
+ }
  .modal {
    position: fixed;
    top: 0;
@@ -308,11 +335,10 @@
  
  .modal-content {
    position: relative;
-   display: flex;
+   display: table-cell;
    background-clip: padding-box;
    flex-direction: column;
    background-color: rgb(255, 255, 255);
-   padding: 2rem;
    border-radius: var(--bs-modal-border-radius);
    width: 50%;
  }
@@ -352,8 +378,8 @@
  }
  .modal-backdrop{
   --bs-backdrop-zindex: 1050;
-    /* --bs-backdrop-bg: #000; */
-    --bs-backdrop-opacity: 0.5;
+     --bs-backdrop-bg: #000; 
+     --bs-backdrop-opacity: 0.5;
     position: fixed;
     top: 0;
     left: 0;
@@ -361,11 +387,9 @@
     width: auto;
     height: auto;
     background-color: var(--bs-backdrop-bg);
- }
+ } 
 
- /* .Carousel{
-  position:relative;
- } */
+ 
  .close-button {
    margin-top: 1rem;
    padding: 0.5rem 1rem;

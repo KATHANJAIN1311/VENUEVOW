@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+// // import { FaInstagram, FaXTwitter, FaFacebook } from 'react-icons/fa6';
+// // import { MailIcon } from 'lucide-react';
 
 
 export class Navbar extends Component {
@@ -26,6 +28,7 @@ export class Navbar extends Component {
         </ul>
       
     </nav>
+   
       </div>
     )
   }

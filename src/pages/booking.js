@@ -26,7 +26,7 @@ function Booking() {
 
   return (
     <div className="container">
-      <div className="row justify-content-center mt-5">
+      <div className="hotel-image">
         {loading ? (
           <h1>loading....</h1>
         ) : error ? (
@@ -38,6 +38,7 @@ function Booking() {
                 <Room room={room} />
               </div>
             );
+
           })
         )}
       </div>
