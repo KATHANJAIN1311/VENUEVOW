@@ -14,7 +14,7 @@ export class Navbar extends Component {
             {/* <div> <SideMenu/></div> */}
            
         <div class="logo1">
-            <img src="https://ik.imagekit.io/613axcjyf/logo%201.png?updatedAt=1724319946073"alt="logo1" />
+            <img src=" https://ik.imagekit.io/613axcjyf/logo%201.png?updatedAt=1724319946073"alt="logo1" />
 
         </div>
         {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">

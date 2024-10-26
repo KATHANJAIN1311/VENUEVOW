@@ -99,7 +99,7 @@
 
  
  /* Custom animations and styles for the side menu */
-@keyframes slideIn {
+/* @keyframes slideIn {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -117,10 +117,10 @@
   to {
     opacity: 1;
   }
-}
+} */
 
 /* Base styles */
-.side-menu {
+/* .side-menu {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -128,7 +128,7 @@
   z-index: 1000;
   background-color: rgb(0, 0, 0);
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-  width: 256px; /* w-64 in Tailwind */
+  width: 256px; 
   display: flex;
   flex-direction: column;
 }
@@ -140,9 +140,9 @@ h1{
 navb{
   display: contents;
   margin: auto;
-}
+} */
 /* Menu item hover effects */
-.menu-item {
+/* .menu-item {
   position: relative;
   transition: all 0.3s ease;
 }
@@ -165,16 +165,16 @@ navb{
 
 .menu-item:hover::after {
   width: 100%;
-}
+} */
 
 /* Active menu item styles */
-.menu-item.active {
+/* .menu-item.active {
   background-color: #020912;
   border-right: 3px solid #3b82f6;
-}
+} */
 
 /* Overlay styles */
-.menu-overlay {
+/* .menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -184,17 +184,17 @@ navb{
   backdrop-filter: blur(2px);
   z-index: 999;
   animation: fadeIn 0.3s ease;
-}
+} */
 
 /* Logo/Brand area styles */
-.brand-area {
+/* .brand-area {
   padding: 1.5rem;
   border-bottom: 1px solid #e2e8f0;
   background-color: #010305;
-}
+} */
 
 /* Menu icon button styles */
-.menu-toggle-btn {
+/* .menu-toggle-btn {
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -209,20 +209,20 @@ navb{
 .menu-toggle-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Footer styles */
-.menu-footer {
+/* .menu-footer {
   margin-top: auto;
   padding: 1rem;
   border-top: 1px solid #e2e8f0;
   text-align: center;
   font-size: 0.875rem;
   color: #64748b;
-}
+} */
 
 /* Media queries */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .side-menu {
     transform: translateX(0) !important;
   }
@@ -232,12 +232,12 @@ navb{
   }
   
   main {
-    margin-left: 256px; /* w-64 in Tailwind */
+    margin-left: 256px; 
   }
-}
+} */
 
 /* Custom scrollbar for menu */
-.side-menu::-webkit-scrollbar {
+/* .side-menu::-webkit-scrollbar {
   width: 4px;
 }
 
@@ -252,7 +252,7 @@ navb{
 
 .side-menu::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
-}
+} */
 
 /*sidemenu css end*/
 
