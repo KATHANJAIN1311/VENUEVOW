@@ -8,8 +8,9 @@ import Navbar from './components/navbar';
 import Home from './pages/Home';
 import Login from './pages/Loginpage';
 import Booking from './pages/booking';
-import Booknow from './pages/booknow';
+//import Booknow from './pages/booknow';
 import Signupform from './pages/signupform';
+//import SideMenu from './pages/sidebar/sidemenu';
 
 
 
@@ -32,7 +33,8 @@ function App() {
       <Route exact path="/signup" element={<Signupform/>}/>
       {/* <Route exact path="/Hotelprofile" element={<Hotelprofile />} /> */}
       <Route exact path="/Booking" element = {<Booking/>}/>
-      <Route exact path="/book/:roomid" element = {<Booknow/>}/>
+      {/* <Route exact path="/book/:roomid" element = {<Booknow/>}/> */}
+      {/* <Route exact path='/sidemenu' element = {<SideMenu/>}/> */}
    </Routes>
     </BrowserRouter>
   </div>

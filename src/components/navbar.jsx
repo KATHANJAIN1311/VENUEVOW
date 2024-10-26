@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+//import SideMenu from '../pages/sidebar/sidemenu';
 // // import { FaInstagram, FaXTwitter, FaFacebook } from 'react-icons/fa6';
 // // import { MailIcon } from 'lucide-react';
 
@@ -10,6 +11,8 @@ export class Navbar extends Component {
     return (
           <div>
            <nav>
+            {/* <div> <SideMenu/></div> */}
+           
         <div class="logo1">
             <img src="https://ik.imagekit.io/613axcjyf/logo%201.png?updatedAt=1724319946073"alt="logo1" />
 
